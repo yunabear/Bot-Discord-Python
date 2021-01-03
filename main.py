@@ -13,10 +13,10 @@ async def on_message(message):
       await message.channel.send("Hi")
 
     if message.content.find("$instagram") != -1:
-      await message.channel.send("https://www.instagram.com/bearyuna_/")
+      await message.channel.send("https://www.instagram.com/.......")
 
     if message.content.find("$youtube") != -1:
-      await message.channel.send("https://www.youtube.com/channel/UC7Tn2xZSgIzojYpH23dSmAQ")
+      await message.channel.send("https://www.youtube.com/channel/.......")
 
     if message.content.find("$author") != -1:
       await message.channel.send("By Yuna Bear")
