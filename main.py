@@ -9,8 +9,9 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.content.find("$hello") != -1:
-      await message.channel.send("Hi")
+    #untuk dalam find(" ") dapat di ubah bebas
+    if message.content.find("$hello") != -1: 
+      await message.channel.send("Hi") #balasan dri bot dri perintah $hello
 
     if message.content.find("$instagram") != -1:
       await message.channel.send("https://www.instagram.com/.......")
